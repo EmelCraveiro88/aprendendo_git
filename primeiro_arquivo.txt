@@ -1,0 +1,16 @@
+O Git é um sistema de controle de versão  Open Source, e é usado para controlar o histórico de alterações de arquivos e principalmente de projetos de desenvolvimento de software. Ele permite mais flexibilidade no fluxo de trabalho, segurança e desempenho.
+Seus principais comandos e suas definições são : Git Status , cujo objetivo é  exibir as condições do diretório de trabalho. O commit , é o conjunto de alterações feitas  em um projeto. Para verificar, bastaa digfitar o comando : git commit -m “[Mensagem Descritiva]”.
+O Git clone é um comando para baixar o código-fonte existente de um repositório remoto (como o Github, por exemplo).
+
+Existem algumas maneiras de baixar o código-fonte, mas eu prefiro o clone com o modo https:
+
+git clone <https://url-do-link>
+Considerado um dos comandos Git mais importantes, o branch pode ser usado para três finalidades diferentes: criar, listar e excluir ramificações. Veja, na sequência, como trabalhar com cada uma delas.
+O Git Diff serve para você saber extamente o que você alterou no projeto. 
+Para alterações de um arquivo em nosso  próximo commit, será necessário utilizar o comando Git Add. Ex: Git add < arquivo >
+Após confirmar as alterações, a próxima coisa que você deseja fazer é enviar as alterações para o servidor remoto usando o comando git push:
+
+git push <remote> <nome-do-branch>
+quando usamos o git pull, ele recebe as atualizações do repositório remoto (git fetch) e aplica imediatamente as alterações mais recentes no seu local (git merge).
+
+git pull <remote>
